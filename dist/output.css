@@ -564,8 +564,16 @@ video {
   position: relative;
 }
 
+.top-\[760px\] {
+  top: 760px;
+}
+
 .top-\[460px\] {
   top: 460px;
+}
+
+.top-\[560px\] {
+  top: 560px;
 }
 
 .mt-80 {
@@ -574,6 +582,14 @@ video {
 
 .mt-\[1000px\] {
   margin-top: 1000px;
+}
+
+.mt-\[800px\] {
+  margin-top: 800px;
+}
+
+.mt-\[500px\] {
+  margin-top: 500px;
 }
 
 .flex {
@@ -586,6 +602,14 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[600px\] {
+  width: 600px;
+}
+
+.w-\[800px\] {
+  width: 800px;
 }
 
 .items-center {

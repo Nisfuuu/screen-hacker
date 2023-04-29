@@ -564,52 +564,108 @@ video {
   position: relative;
 }
 
-.top-\[760px\] {
-  top: 760px;
+.top-10 {
+  top: 2.5rem;
 }
 
-.top-\[460px\] {
-  top: 460px;
+.top-52 {
+  top: 13rem;
 }
 
-.top-\[560px\] {
-  top: 560px;
+.top-44 {
+  top: 11rem;
 }
 
-.mt-80 {
-  margin-top: 20rem;
+.top-40 {
+  top: 10rem;
+}
+
+.top-64 {
+  top: 16rem;
+}
+
+.bottom-10 {
+  bottom: 2.5rem;
+}
+
+.bottom-20 {
+  bottom: 5rem;
+}
+
+.bottom-24 {
+  bottom: 6rem;
+}
+
+.bottom-28 {
+  bottom: 7rem;
+}
+
+.bottom-32 {
+  bottom: 8rem;
+}
+
+.bottom-36 {
+  bottom: 9rem;
 }
 
 .mt-\[1000px\] {
   margin-top: 1000px;
 }
 
-.mt-\[800px\] {
-  margin-top: 800px;
-}
-
-.mt-\[500px\] {
-  margin-top: 500px;
-}
-
 .flex {
   display: flex;
 }
 
-.w-\[500px\] {
-  width: 500px;
+.h-96 {
+  height: 24rem;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.h-32 {
+  height: 8rem;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-\[800px\] {
+  width: 800px;
 }
 
 .w-full {
   width: 100%;
 }
 
-.w-\[600px\] {
-  width: 600px;
+.w-screen {
+  width: 100vw;
 }
 
-.w-\[800px\] {
-  width: 800px;
+.w-\[900px\] {
+  width: 900px;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
+.w-\[1000px\] {
+  width: 1000px;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .items-center {
@@ -624,29 +680,34 @@ video {
   text-align: center;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .text-green-700 {
   --tw-text-opacity: 1;
   color: rgb(21 128 61 / var(--tw-text-opacity));
+}
+
+.text-green-600 {
+  --tw-text-opacity: 1;
+  color: rgb(22 163 74 / var(--tw-text-opacity));
 }
 
 .opacity-\[0\.2\] {
@@ -655,6 +716,26 @@ video {
 
 .opacity-\[0\.7\] {
   opacity: 0.7;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-5 {
+  opacity: 0.05;
+}
+
+.opacity-\[0\.1\] {
+  opacity: 0.1;
+}
+
+.opacity-\[0\.5\] {
+  opacity: 0.5;
+}
+
+.opacity-\[0\.6\] {
+  opacity: 0.6;
 }
 
 body {

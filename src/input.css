@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Press Start 2P", cursive;
+  background: black;
+  background-image: url("../dist/img/hack.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.opacity {
+  background-image: url("https://i.pinimg.com/originals/96/74/a3/9674a3ff21e02af82daa565e5773fa56.gif");
+  opacity: 0.1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
